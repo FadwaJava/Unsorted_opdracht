@@ -1,0 +1,12 @@
+
+1: Créer le dossier Sorted_map. puis le fichier summary.txt dans sorted_folder s'ils n'existent pas déja.
+2: parcourir les differents dossiers et fichiers existants dans le dossier unsorted.
+
+3: definir pour chaque élement parcouru si c'est un dossier ou un fichier
+
+ 3.1 : si c'est un dossier : le parcourir de la meme manière  que le point 2;
+ 3.2: si c'est un fichier : verifier son extension
+    3.2.1 verifier si il y a un dossier avec le meme nom de l'extension
+            si oui : deplacer le fichier dans le dossier sui correspond à son extension
+            si non: créer un nouveau dossier avec le nom de l'extension et deplacer le fichier dedans
+    une fois le fichier déplacé le noter sur un fichier summary.txt avec les attributs de celui ci

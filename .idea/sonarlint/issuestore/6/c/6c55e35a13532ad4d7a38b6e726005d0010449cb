@@ -1,0 +1,22 @@
+
+m
+java:S3027="KPut single-quotes around '\\' to use the faster "lastIndexOf(char)" method.(À£ëŞüÿÿÿÿ8…ˆŞ¦Ì.
+m
+java:S3027"KPut single-quotes around '\\' to use the faster "lastIndexOf(char)" method.(Á¸–ßúÿÿÿÿ8’Ú¾¥Ì.
+t
+java:S3776-"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(‡¤šşÿÿÿÿ8…ˆŞ¦Ì.
+g
+java:S3027"JPut single-quotes around '.' to use the faster "lastIndexOf(char)" method.(‡ŸÒ€8’Ú¾¥Ì.
+E
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8†“ù¤Ì.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½®åÀ8’Ú¾¥Ì.
+a
+java:S20959"DUse try-with-resources or close this "Stream" in a "finally" clause.(»ıÌ8…ˆŞ¦Ì.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£÷À8‹£ú¤Ì.
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Ş÷˜ä8†“ù¤Ì.
+E
+java:S1148G"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8…ˆŞ¦Ì.
+g
+java:S30277"KPut single-quotes around '\\' to use the faster "lastIndexOf(char)" method.(¸œÿD8…ˆŞ¦Ì.
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ş÷˜ä

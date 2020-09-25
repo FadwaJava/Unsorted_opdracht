@@ -1,0 +1,13 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(öÆÜúÿÿÿÿ8©Õ‘¥Ì.
+I
+java:S1612",Replace this lambda with a method reference.(ª•®‚8Çöã¥Ì.
+m	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸·…À8©Õ‘¥Ì.
+a
+java:S2095"DUse try-with-resources or close this "Stream" in a "finally" clause.(õß‹8úàç¥Ì.
+a
+java:S2095"DUse try-with-resources or close this "Stream" in a "finally" clause.(ª•®‚8Çöã¥Ì.
+E
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Çöã¥Ì.
+m	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µŸ‹”8©Õ‘¥Ì.
