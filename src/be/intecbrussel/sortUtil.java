@@ -37,7 +37,7 @@ public class sortUtil {
             if (Files.notExists(newPath)) {
                 Files.createDirectory(newPath);
             }
-            while((Files.notExists((Path)p))){
+           if (Files.notExists(newPath.resolve(fileName))){
             Files.copy(Paths.get(filePath), newPath.resolve(fileName), REPLACE_EXISTING);
         }
         }
