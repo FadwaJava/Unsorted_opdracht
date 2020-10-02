@@ -46,8 +46,8 @@ public class sortUtil {
 
             try (FileWriter outputStream = new FileWriter(summaryFile.toString())) {
 
-                outputStream.append ("-----------------------------SUMMARY--------------------------\n");
-                outputStream.append ("File ------------------------|Readable----------------|Writable \n");
+                outputStream.append ("-------------------------------------SUMMARY----------------------------------------\n");
+                outputStream.append ("File -------------------------------------------------|Readable------------|Writable \n");
 
                 for (Object n : newPaths) {
                     String newDirPath = n.toString();
@@ -59,10 +59,16 @@ public class sortUtil {
                             String newFilePath = newf.toString();
                             if (newFilePath.contains(".")) {
                                 String newFileName = newFilePath.substring(newFilePath.lastIndexOf("\\") + 1);
-                                outputStream.write(newFileName);
+                                StringBuilder strb = new StringBuilder();
+                                strb.append(newFileName);
+                                for (int i = 0; i< (55-newFileName.length()); i++) {
+                                    strb.append(" ");
+                                }
+                                outputStream.write(strb.toString());
+                                
                                 if (Files.isHidden((Path)newf))
-                                    outputStream.write("\t\t|X \t\t|/ \n");
-                                    else outputStream.write("\t\t|X \t\t|X \n");
+                                    outputStream.write("\t\t|X \t\t\t\t|/ \n");
+                                    else outputStream.write("\t\t|X \t\t\t\t|X \n");
                                 }
                         }
                     }
